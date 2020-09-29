@@ -1,0 +1,77 @@
+<!-- 
+    Author: Eliza Encherman
+    Class: Tufts COMP 20
+    Assignment: HW 3 Business Website
+    Purpose: This is the home page of a "business" website for a tattoo         parlor/art shop.
+    Due Date: Sept 28 2020
+    -->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+
+        <style type="text/css">
+            
+            
+            /* when hovering over the link to the "ink" page, the link box background shows
+            * the picture of a tattoo
+            */
+            #ink:hover {
+                background-image: url("tattoos_seated.jpg");
+                background-size: contain;
+                color: #befbff;
+            }
+
+            /* when hovering over the link to the "artist" page, the link box background
+            * shows the picture of a tattoo
+            */
+            #artist:hover {
+                background-image: url("cropped_lindsey.JPG");
+                background-size: contain;
+                color: #befbff;
+            }
+
+            /* when hovering over the link to the "paint" page, the link box background
+            * shows the picture of a tattoo
+            */
+            #paint:hover {
+                background-image: url("cropped_doughnut.png");
+                background-size: contain;
+                color: #befbff;
+            }
+        </style>
+
+        <title>InkLin</title>
+    </head>
+
+    <header>
+        <nav>
+            <ul class="topnav">
+                <li><a href="#">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="right"><img src="logo.png" height="100px"/></li>
+            </ul>
+        </nav>
+    </header>
+    <body> 
+        <div class="main-pages">
+            <ul class="main-pages">
+                <li>
+                    <a id="artist" href="artist.html">Artist</a>
+                </li>
+                <li>
+                    <a id="ink" href="ink.html">Ink</a>
+                </li>
+                <li>
+                    <a id="paint" href="art.html">Paintings</a>
+                </li>
+            </ul>
+        </div> 
+    </body>
+    <footer>
+        <p style="float:right;">Not Really a Copyright But Just for the Heck of It &copy;2020</p>
+    </footer>
+
+</html>

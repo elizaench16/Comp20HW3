@@ -1,0 +1,41 @@
+Author: Eliza Encherman
+Class: Tufts COMP 20
+Assignment: HW 3 Business Website
+Purpose: txt file with URL, design document, question answers, and citations.
+
+URL: 
+
+
+Name of the business:   InkLin
+What the business does:     
+    Tattoo parlor and art  
+    (fake business created for this assignment)
+Target Demographic:  
+
+People with a colorful, whimsical, and quirky aesthetic sense. 
+    For the tattoo parlor:  18 to 65-year-olds
+
+    For the artist's studio:    Ages 13+ 
+ 
+
+Questions to Answer:
+
+What was the easiest part of this assignment?
+
+    Just getting started and getting the elements on the page
+
+What was the most challenging part of this assignment?
+
+    Formatting!!! I could tweak the divs and margins and padding all day and still be way off...
+
+
+Citations: 
+
+Art and photos taken and designed by Lindsey Rickard
+Navbar adapted from W3School's responsive horizontal topnav
+Demographics on tattoo ages from Anisa Holmes' article for Dahlia Research
+Background-image changing on hover using code template adapted from Tutorial Republic's FAQ, with help from TA Max
+Logo made using https://logomakr.com/5Pfulg
+Image gallery class adapted from W3School
+Form adapted from W3School
+Formatting help from TA Kate
