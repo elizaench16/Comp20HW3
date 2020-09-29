@@ -44,7 +44,7 @@ ul.main-pages {
     margin: auto;
     width: 60%;
     padding: 0;
-
+    display: inline-block;
 }
 
 
