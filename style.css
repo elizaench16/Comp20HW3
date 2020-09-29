@@ -71,6 +71,7 @@ ul.main-pages li {
     display: inline-block;
     margin: 30%;
     top: 40%;
+    flexwrap: flex;
 }
 
 ul.main-pages li a {
