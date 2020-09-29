@@ -1,0 +1,65 @@
+<!-- 
+    Author: Eliza Encherman
+    Class: Tufts COMP 20
+    Assignment: HW 3 Business Website
+    Purpose: This is the "contact" page of the site.
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>InkLin: Contact</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            input[type=text] {
+                width: 30%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <header>
+        <nav>
+            <ul class="topnav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artist.html">Artist</a></li>
+                <li><a href="ink.html">Ink</a></li>
+                <li><a href="art.html">Art</a></li>
+                <li class="right"><img src="logo.png" height="100px"/></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div class="main-pages">
+            <h1  style="padding:0 30px;">Welcome!</h1>
+            <p>If you have a question, you can enter it in the box below - don't forget to enter your contact info so we can get back to you!</p>
+            <p>Or, if you'd like to book an appointment, you can do that directly right <a href='#'>here.</a></p>
+
+            <form style="margin:auto; text-align:center;" action="#" method="POST">
+                <input type="text" id="fname" placeholder="First name" name="fname" required="1">
+                <br/>
+                <input type="text" id="lname" placeholder="Last name" name="lname" required="1">
+                <br/>
+                <input type="email" id="email" name="email" placeholder="Email" required="1">
+                <br/>
+                <label for="interests">What are you interested in? Check all that apply:</label>
+                <br/>
+                <label for="Tattoo consultation">Tattoo consultation</label>
+                <input type="checkbox" id="Tattoo consultation" name="interests" value="Tattoo consultation">
+                <label for="Buy art">Buy art</label>
+                <input type="checkbox" id="Buy art" name="interests" value="Buy art">
+                <label for="Get a party quote">Get a party quote</label>
+                <input type="checkbox" id="Get a party quote" name="interests" value="Get a party quote">
+                <label for="Ask a question">Ask a question</label>
+                <input type="checkbox" id="Ask a question" name="interests" value="Ask a question">
+                <br/>
+                <input type="submit" id="submit" name="Submit"> 
+            </form>
+        </div>
+    </body>
+    <footer>
+        <p style="float:right;">Not Really a Copyright But Just for the Heck of It &copy;2020</p>
+    </footer>
+</html>
