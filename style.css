@@ -66,7 +66,7 @@ ul.main-pages li {
     list-style-type: none;
     background-color: #fcbd36;
     text-align: center;
-    width: 330;
+    width: 250;
     font-size: 60px;
     display: block;
     margin: auto;
@@ -75,9 +75,9 @@ ul.main-pages li {
 
 ul.main-pages li a {
     border: 6px solid #123456;
-    min-height: 100px;
+    min-height: 90px;
     margin: auto;
-    padding: 100px;
+    padding: 80px;
 }
 
 footer {
