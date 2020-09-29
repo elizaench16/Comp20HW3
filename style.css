@@ -75,9 +75,9 @@ ul.main-pages li {
 
 ul.main-pages li a {
     border: 6px solid #123456;
-    min-height: 90px;
+    min-height: 80px;
     margin: auto;
-    padding: 80px;
+    padding: 60px;
 }
 
 footer {
